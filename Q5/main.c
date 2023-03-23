@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include <stdlib.h>
-
+void Fib(int a);
 int main()
 {
     int a;
