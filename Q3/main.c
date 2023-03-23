@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int count;
+int Digit_Counter(int a);
 int main()
 {
    int a;
