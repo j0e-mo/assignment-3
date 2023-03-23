@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int a,b;
-
+int Get_Max(int a, int b);
 int main()
 {
     printf("Gimme 2 numbers: \n");
