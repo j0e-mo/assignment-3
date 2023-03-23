@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-int correct_code = 1234;
+#define correct_code = 1234;
+int login(int a);
 int code;
 int main()
 {
@@ -11,7 +12,7 @@ int main()
 
     if (login())
         printf("Welcome aboard, Captain.\n");
-    if(!login())
+    else
         printf("Wrong code, gtfo of here!\n");
 
     return 0;
