@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int a,b;
-
+void swapper(int *a, int *b);
 int main()
 {
     printf("What are the values you want to swap?\n");
@@ -12,8 +12,7 @@ int main()
 }
 void swapper(int *a, int *b)
 {
-    int c=0;
-    c = *a;
-    *a = *b;
-    *b = c;
+    a = a^b;
+    b = a^b;
+    a = a^b;
 }
