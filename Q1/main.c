@@ -13,6 +13,6 @@ int Get_Max(int a, int b)
 {
     if (a>b)
         return a;
-    else if (b>=a)
+    else
         return b;
 }
